@@ -1,0 +1,1 @@
+Write-Host "Hello, this is my first script"

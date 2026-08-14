@@ -1,6 +1,6 @@
 # PowerShell Practice
 
-This repository is documenting my progress as I learn PowerShell and improve my Windows/IT administration skills.
+This repository is tracking my progress as I learn PowerShell and improve my Windows/IT administration skills.
 
 I'm using this repo to save commands I've learned, organize PowerShell references, build practice scripts, and eventually create more advanced automation and administration scripts.
 

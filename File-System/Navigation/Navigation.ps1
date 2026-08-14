@@ -12,3 +12,9 @@ Test-Path C:\Lab
 
 # Show hidden items also in directory
 Get-ChildItem -Force
+
+# Remembers where you are, them moves you somewhere else
+Push-Location
+
+# Takes you back where it last remembered
+Pop-Location

@@ -18,3 +18,6 @@ Push-Location
 
 # Takes you back where it last remembered
 Pop-Location
+
+# Checks if a path exist
+Test-Path

@@ -16,3 +16,13 @@ Get-Content
 # Renames a file or folder
 Rename-Item
 
+# Adding content with multipe lines using a Here-String
+@'
+
+
+
+Enter content
+
+
+
+'@ | Add-Content .\Files-and-Folders.ps1

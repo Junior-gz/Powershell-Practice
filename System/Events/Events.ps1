@@ -5,3 +5,6 @@ Get-WinEvent -LogName *System* -MaxEvents 20
 
 # Filters log to only errors
 Get-WinEvent -LogName *System* | Where-Object {$_.LevelDisplayName -eq "Error"}
+
+# Filters event to a specific event ID
+Get-WinEvent -FilterHashtable @{LogName='System'; Id=7036}

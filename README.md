@@ -20,32 +20,44 @@ My PowerShell practice is organized into different topics.
 
 ```text
 PowerShell-Practice/
-
-|Environment\
-  Enviromental-Variable\Enviromental-Variables.ps1
-
-|File-System
-  \Content\Content.ps1
-  \Files-and-Folders\Files-and-Folders.ps1
-  \Navigation\Navigation.s1
-
-|Labs\Labs.ps1
-  
-|Links\
-  \Junctions\Junctions.ps1
-  \Symbolic-Links\Symbolic-Links.ps1
-
-|Permissions\Permissions.ps1
-
-|Registry\Registry.ps1
-
-|System\
-  \Events\Events.ps1
-  \Packages\Packages.ps1
-  \Services\Services.ps1
-  \System-Info\System-Info.ps1
-
-|README.md
+├── Environment/
+│   └── Environmental-Variables/
+│       └── Environmental-Variables.ps1
+│
+├── File-System/
+│   ├── Content/
+│   │   └── Content.ps1
+│   ├── Files-and-Folders/
+│   │   └── Files-and-Folders.ps1
+│   └── Navigation/
+│       └── Navigation.ps1
+│
+├── Labs/
+│   └── Labs.ps1
+│
+├── Links/
+│   ├── Junctions/
+│   │   └── Junctions.ps1
+│   └── Symbolic-Links/
+│       └── Symbolic-Links.ps1
+│
+├── Permissions/
+│   └── Permissions.ps1
+│
+├── Registry/
+│   └── Registry.ps1
+│
+├── System/
+│   ├── Events/
+│   │   └── Events.ps1
+│   ├── Packages/
+│   │   └── Packages.ps1
+│   ├── Services/
+│   │   └── Services.ps1
+│   └── System-Info/
+│       └── System-Info.ps1
+│
+└── README.md
 ```
 
 Folders and scripts will be added as I continue learning.

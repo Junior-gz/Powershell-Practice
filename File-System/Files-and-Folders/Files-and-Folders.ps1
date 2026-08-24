@@ -1,6 +1,9 @@
 # Creates a new file or folder
 New-Item
 
+# Creates a new Folder (Directory)
+New-Item .\"New Folder" -ItemType Directory
+
 # Copies a file or folder
 Copy-Item
 

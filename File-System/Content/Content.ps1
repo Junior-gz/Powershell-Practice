@@ -6,3 +6,6 @@ Set-content
 
 # Adds content to a file
 Add-Content
+
+# Prints/repeats the text you write
+Write-Output "text"

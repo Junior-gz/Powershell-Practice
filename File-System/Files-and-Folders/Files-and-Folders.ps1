@@ -4,6 +4,10 @@ New-Item
 # Creates a new Folder (Directory)
 New-Item .\"New Folder" -ItemType Directory
 
+# Creates a new file (Notepad)
+New-Item .\newfile -Itemtype File
+New-Item .\newfile.txt
+
 # Copies a file or folder
 Copy-Item
 
@@ -19,7 +23,7 @@ Get-Content
 # Renames a file or folder
 Rename-Item
 
-# Adding content with multipe lines using a Here-String
+# Adding content with multipe lines using a Here-String.
 @'
 
 
